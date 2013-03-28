@@ -54,34 +54,3 @@
   }
 
 }(jQuery));
-
-
-/*
-    var publics = {
-      ibd: 44781847,
-      borsch: 460389,
-      mdk: 10639516
-    };
-
-    var publicKeys = [];
-      
-    for (i in publics) 
-      publicKeys.push(i);
-
-    getCounter = 0;
-
-    function get(publicKey) {
-      if (publicKey != undefined)
-        $.ajax({
-          dataType: "json",
-          url: 'test' + publics[publicKey] + '.json',
-          success: function(data) {
-            console.log('success:' + publicKey + ':' + publics[publicKey] + ':' + 'test' + publics[publicKey] + '.json');
-            console.log(data);
-            get(publicKeys[++getCounter]);
-          }
-        });
-    }
-
-    get(publicKeys[getCounter]);
-*/
