@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ajax Cycle jQuery</title>
+  <script src="jquery.js"></script>
+  <script src="../cycled.ajax.jquery.js"></script>
+  
+</head>
+<body>
+  <script>
+
+    items = {
+      item1: 10,
+      item2: 100,
+      item3: 1000
+    };
+
+    cycledAjax.init({
+      object: items,
+      dataType: 'json',
+      url: 'test{value}.json', // {value} - return object values, {key} - return onject keys
+      success: function(data) {
+        console.log(data);
+      },
+      error: function() {
+        console.log('error ');
+      }
+    });
+
+  </script>
+</body>
+</html>
