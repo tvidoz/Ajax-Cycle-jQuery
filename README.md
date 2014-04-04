@@ -41,6 +41,3 @@ Creating Ajax request cycle
 
 The plugin sends an asynchronous request to the values ​​specified in the plugin settings (keys and values ​​of an object can be added to the URI for each iteration). It works recursively and does not slow synchronous request.
 
-## Authors
-
-[Andrew Kulikov](https://github.com/tvidoz)
